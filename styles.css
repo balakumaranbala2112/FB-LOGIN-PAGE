@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f0f2f5;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.main-div{
+	display: flex;
+	justify-content: center;
+ 	align-items: center; 
+	flex-direction: column;
+}
+
+.main-div h1{
+	color: blue;
+	padding: 30px;
+	margin: 15px;
+	font-size: 3em;
+}
+
+#form{
+	background-color: #fff;
+	border-radius: 8px;
+	width: 400px;
+}
+
+.name-div{
+	text-align: center;
+	border-bottom: 1px solid #969393;
+}
+
+.name-div h2{
+	margin: 0;
+	padding: 8px;
+}
+
+.name-div p{
+	margin: 0;
+	padding: 5px;
+	padding-top: 3px;
+}
+
+/* ||  INPUT FOEM MAIN DESIGN ||  */
+
+.input-fields{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+ 	row-gap: 14px;
+	flex-wrap: wrap; 
+}
+
+ input ,select{
+	border: 1px solid #969393;
+	border-radius: 5px;
+	padding: 5px;
+	width: 100%;
+}
+
+.row-one{
+	display: flex;
+	width:48%;
+}
+.row-two{
+	display: flex;
+	width:100%;
+}
+
+.row-three{
+	display: flex;
+	width:100%;
+}
+
+.dob small{
+	margin: 0;
+	display: block;
+	padding: 5px;
+}
+
+.dob{
+	width: 100%;
+}
+
+.dob small::after{
+	content: " ?";
+}
+
+.selection{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.thirty{
+	display: flex;
+	width: 31%;
+}
+
+.gender{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	column-gap: 15px;
+}
+
+.gen-cat{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #969393;
+	border-radius: 5px;
+	padding: 2px;
+	width: 48%;
+}
+
+.gen-cat input{
+	margin: 0;
+	width: auto;
+}
+
+.submit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 15px;
+}
+
+.submit input{
+	width: auto;
+	padding: 5px;
+}
+
+footer p{
+	text-align: center;
+}
